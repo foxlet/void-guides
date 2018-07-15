@@ -52,4 +52,4 @@ make -j10
 
 WoW64 will be automatically added to the 64-bit Wine installation. To use wine, use the 64-bit installation.
 
-To install wine, first install wine32 `sudo ./wine32/make install`, then wine64 `sudo ./wine64/make install`
+To install wine, first install wine32 `cd wine32 && sudo make install`, then wine64 `cd wine64 && sudo make install`
