@@ -1,9 +1,10 @@
-#Build Wine on Void Linux
+Build Wine on Void Linux
+========================
 
 Since the latest version of Wine available on the Void Linux repo is 32-bit only, here's some instructions for compiling the latest version of Wine on Void Linux. This assumes 3 folders exist, **wine** with the Wine source code, **wine64** for the compiled 64-bit Wine installation, and **wine32** for WoW64 support.
 
-Compile 64-bit-only Wine
-========================
+##Compile 64-bit-only Wine
+
 Compiling 64-bit Wine is the easiest, but it will only run 64-bit Windows applications. Most likely this will not be very useful since most applications still have 32-bit components. However, it is required for a WoW (32 and 64-bit) Wine installation.
 
 Install 64-bit compiler and development tools
@@ -26,8 +27,8 @@ make -j10
 
 64-bit Wine is ready to use. You can optionally install it with `make install`, but you will want to add WoW64 support first.
 
-Compile WoW64 (32-bit support) for 64-bit Wine
-==============================================
+##Compile WoW64 (32-bit support) for 64-bit Wine
+
 You'll need to follow the Wine 64-bit instructions first.
 After compiling 64-bit Wine...
 
