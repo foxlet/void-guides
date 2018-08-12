@@ -1,5 +1,5 @@
 Build Kodi PVR 17.6 (HDHomeRun) on Void Linux
-========================================
+=============================================
 
 The Kodi PVR plugins are not included in Void Linux yet, but they are easy enough to build and install for the current stable version (17.6 Krypton).
 
