@@ -8,7 +8,7 @@ The Kodi PVR plugins are not included in Void Linux yet, but they are easy enoug
 ## Build from Git
 
 ```
-sudo xbps-install -Suyv base-devel
+sudo xbps-install -Suyv base-devel git
 git clone --single-branch -b Krypton https://github.com/xbmc/xbmc.git
 git clone --single-branch -b Krypton https://github.com/kodi-pvr/pvr.hdhomerun.git
 cd pvr.hdhomerun && mkdir build && cd build
