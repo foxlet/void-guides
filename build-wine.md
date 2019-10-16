@@ -14,7 +14,7 @@ sudo xbps-install -Su base-devel
 
 Install Wine 64-bit dependencies
 ```
-sudo xbps-install libX11-devel freetype-devel libjpeg-turbo-devel gnutls-devel dbus-devel libopenal-devel gstreamer-devel libxml2-devel libxslt-devel tiff-devel libldap-devel libXrender-devel libXrandr-devel libXfixes-devel libpulseaudio libOSMesa fontconfig-devel libmpg123 lcms2-devel libXinerama-devel libXcomposite-devel libXcursor-devel libXi-devel libsane glu-devel libgphoto2-devel opencl-headers pulseaudio-devel libpcap-devel
+sudo xbps-install libX11-devel freetype-devel libjpeg-turbo-devel gnutls-devel dbus-devel libopenal-devel gstreamer1-devel libxml2-devel libxslt-devel tiff-devel libldap-devel libXrender-devel libXrandr-devel libXfixes-devel libpulseaudio libOSMesa fontconfig-devel libmpg123 lcms2-devel libXinerama-devel libXcomposite-devel libXcursor-devel libXi-devel libsane glu-devel libgphoto2-devel opencl-headers pulseaudio-devel libpcap-devel vkd3d-devel vulkan-loader
 ```
 
 Compile Wine 64-bit
@@ -39,7 +39,7 @@ sudo xbps-install gcc-multilib
 
 Install Wine 32-bit dependencies
 ```
-sudo xbps-install libX11-devel-32bit freetype-devel-32bit libjpeg-turbo-devel-32bit gnutls-devel-32bit dbus-devel-32bit libopenal-devel-32bit gstreamer-devel-32bit libxml2-devel-32bit libxslt-devel-32bit tiff-devel-32bit libldap-devel-32bit libXrender-devel-32bit libXrandr-devel-32bit libXfixes-devel-32bit libpulseaudio-32bit libOSMesa-32bit fontconfig-devel-32bit libmpg123-32bit lcms2-devel-32bit libXinerama-devel-32bit libXcomposite-devel-32bit libXcursor-devel-32bit libXi-devel-32bit libsane-32bit glu-devel-32bit libgphoto2-devel-32bit opencl-headers pulseaudio-devel-32bit libpcap-devel-32bit libcups-32bit
+sudo xbps-install libX11-devel-32bit freetype-devel-32bit libjpeg-turbo-devel-32bit gnutls-devel-32bit dbus-devel-32bit libopenal-devel-32bit gstreamer-devel-32bit libxml2-devel-32bit libxslt-devel-32bit tiff-devel-32bit libldap-devel-32bit libXrender-devel-32bit libXrandr-devel-32bit libXfixes-devel-32bit libpulseaudio-32bit libOSMesa-32bit fontconfig-devel-32bit libmpg123-32bit lcms2-devel-32bit libXinerama-devel-32bit libXcomposite-devel-32bit libXcursor-devel-32bit libXi-devel-32bit libsane-32bit glu-devel-32bit libgphoto2-devel-32bit opencl-headers pulseaudio-devel-32bit libpcap-devel-32bit libcups-32bit vkd3d-devel-32bit vulkan-loader-32bit
 ```
 
 Compile 32-bit Wine support libraries
